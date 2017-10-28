@@ -1,3 +1,7 @@
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from apiclient.discovery import build
 googlesearch = build("customsearch", "v1",
                developerKey="AIzaSyAwS_D5vFkfqzz-6LcfUtcxEOTd-mFp5qs")
