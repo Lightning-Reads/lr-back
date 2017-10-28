@@ -7,13 +7,13 @@ def doImageSearch(searchString):
 		q=searchString,
 		cx='011321095650785962352:3h3forz45xu',
 		searchType='image',
-		num=3,
+		num=1,
 		safe= 'off'
 	).execute()
 	
-	if not 'items' in res:
-		print 'No result !!\nres is: {}'.format(res)
+	if not 'items' in results:
+		return ''
 	else:
-		#for item in res['items']:
-		item = res['items'][0]
+		#for item in results['items']:
+		item = results['items'][0]
 		return item['link'].encode('utf-8')
