@@ -1,7 +1,7 @@
 from wikiapi import WikiApi
 wiki = WikiApi({ 'locale' : 'en'}) # to specify your locale, 'en' is default
 
-def doSearch(searchString):
+def getWikipediaLink(searchString):
     try:
         results = wiki.find(searchString)
         if not results:

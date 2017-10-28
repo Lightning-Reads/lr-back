@@ -1,2 +1,3 @@
-apiclient.discovery
+google-api-python-client
 wikiapi
+flask
