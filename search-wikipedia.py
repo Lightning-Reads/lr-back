@@ -2,14 +2,25 @@ from wikiapi import WikiApi
 wiki = WikiApi({ 'locale' : 'en'}) # to specify your locale, 'en' is default
 
 def doSearch(searchString):
-    results = wiki.find(searchString)
-    article = wiki.get_article(results[0])
-    response = {}
-    response['key'] = searchString
-    response['url'] = article.url
-    response['image'] = article.image
-    # print response
-    return response
+    try:
+        results = wiki.find(searchString)
+        if not results:
+            print 'No result !!\nresults is: {}'.format(results)
+            return {}
+        else:
+            article = wiki.get_article(results[0])
+            if not article.url:
+                print 'No result !!\narticle is: {}'.format(article)
+                return {}
+            else:
+                return  article.url
+    except:
+        print "Something went wrong"
+        return {}
 
 # bo = doSearch('Barack Obama')
+# print bo
+# bo2 = doSearch('afdopsakfdskfasdf adfadfsadf')
+# print bo2
 # ny = doSearch('New York')
+# print ny
