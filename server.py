@@ -8,8 +8,10 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 from workflow import generateContent
+from db import db_connect, db_counterup, db_counterdown
 
 app = Flask(__name__)
+db_connect()
 
 @app.route("/")
 def ping():
@@ -22,9 +24,17 @@ def input():
     print result
     return jsonify(result)
 
+
+@app.route("/feedback", methods=['POST'])
+def feedback():
+    fb = request.get_json(silent=True)
+    db_counterup(fb['category'], fb['mediatype'])
+    return "OK"
+
+
 def get_topic(text):
     return text.split('/')[1]
 
 if __name__ == '__main__':
     app.debug = True
-    app.run()
+    app.run(host= '0.0.0.0')

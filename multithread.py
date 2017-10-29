@@ -1,9 +1,9 @@
-from multiprocessing import Pool, TimeoutError
+from multiprocessing import Pool, TimeoutError, Process, freeze_support
 import time
 import os
 
 def f(x):
-    time.sleep(1)
+    time.sleep(0)
     return x*x
 
 if __name__ == '__main__':
