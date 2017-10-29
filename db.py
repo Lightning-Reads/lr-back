@@ -19,7 +19,7 @@ def db_connect():
         else:
             print(err)
             
-def db_counterup(categoryselected, counter):
+def db_counterup(categoryselected, mediatype):
     print categoryselected
     cursor = cnx.cursor(dictionary=True)
     #result = cursor.execute('SELECT * FROM core WHERE category=?', categoryselected)
@@ -31,16 +31,16 @@ def db_counterup(categoryselected, counter):
         print "%s, %s, %s" % (result["pic"], result["wiki"], result["id"], )
         resid = result["id"]
         
-        newcounterval = result[counter] + 1
-        query = "UPDATE core SET " + counter + " = %s WHERE id = %s"
+        newmediatypeval = result[mediatype] + 1
+        query = "UPDATE core SET " + mediatype + " = %s WHERE id = %s"
         
-        cursor.execute(query, (newcounterval,resid))
-    else
+        cursor.execute(query, (newmediatypeval,resid))
+    else:
         query = "INSERT INTO core (category) VALUES (%s)"
         cursor.execute(query, (categoryselected,))
     cnx.commit()
         
-def db_counterdown(categoryselected, counter):
+def db_counterdown(categoryselected, mediatype):
     print categoryselected
     cursor = cnx.cursor(dictionary=True)
     #result = cursor.execute('SELECT * FROM core WHERE category=?', categoryselected)
@@ -52,13 +52,24 @@ def db_counterdown(categoryselected, counter):
         print "%s, %s, %s" % (result["pic"], result["wiki"], result["id"], )
         resid = result["id"]
         
-        newcounterval = result[counter] - 1
-        query = "UPDATE core SET " + counter + " = %s WHERE id = %s"
-        cursor.execute(query, (newcounterval,resid))
-    else
+        newmediatypeval = result[mediatype] - 1
+        query = "UPDATE core SET " + mediatype + " = %s WHERE id = %s"
+        cursor.execute(query, (newmediatypeval,resid))
+    else:
         query = "INSERT INTO core (category) VALUES (%s)"
         cursor.execute(query, (categoryselected,))
     cnx.commit()
+
+def db_getAllCounter(categoryselected):
+    print categoryselected
+    cursor = cnx.cursor(dictionary=True)
+    #result = cursor.execute('SELECT * FROM core WHERE category=?', categoryselected)
+    query = "SELECT * FROM core WHERE category = %s LIMIT 1"
+    cursor.execute(query, (categoryselected,))
+    result = cursor.fetchone()
+
+    if result is not None:
+       return result
             
 db_connect()
 #db_counterup("test", "pic")

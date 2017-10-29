@@ -42,6 +42,9 @@ def generateContent(originalContent):
     res4 = pool.apply_async(getMostRelevantEvent, (originalContent,))      # runs in *only* one process
     res5 = pool.apply_async(getTextTopic, (originalContent,))      # runs in *only* one process
     
+    db_
+
+
     try:
         result['meta']['sentiment'] = ressentiment.get(timeout=10)
     except TimeoutError:
