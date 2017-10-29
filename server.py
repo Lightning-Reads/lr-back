@@ -19,8 +19,8 @@ def ping():
 
 @app.route("/input", methods=['POST'])
 def input():
-    originContent = request.get_json(silent=True)['content']
-    result = generateContent(originContent)
+    originalContent = request.get_json(silent=True)['content']
+    result = generateContent(originalContent)
     print result
     return jsonify(result)
 

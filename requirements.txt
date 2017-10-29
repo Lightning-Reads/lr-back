@@ -4,5 +4,5 @@ flask
 wordcloud
 google-cloud
 google-cloud-language
-
+eventregistry
 

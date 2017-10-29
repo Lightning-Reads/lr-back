@@ -62,13 +62,14 @@ def doArticleSearch(searchString):
         categories = ""
         categories_id = ""
 
+        print article
         return article
         
     except ValueError, e:
         return ''
 
 #test        
-news = doArticleSearch("Germany")
+#news = doArticleSearch("Germany")
 
-print news['title']
+#print news['title']
 
