@@ -61,7 +61,7 @@ def db_counterdown(categoryselected, counter):
     cnx.commit()
             
 db_connect()
-db_counterup("test", "pic")
-db_addcategory("test")
+#db_counterup("test", "pic")
+#db_addcategory("test")
 
     
