@@ -22,6 +22,9 @@ def input():
     print result
     return jsonify(result)
 
+def get_topic(text):
+    return text.split('/')[1]
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
