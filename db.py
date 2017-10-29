@@ -35,11 +35,15 @@ def db_counterup(categoryselected, counter):
         query = "UPDATE core SET " + counter + " = %s WHERE id = %s"
         
         cursor.execute(query, (newcounterval,resid))
-        cnx.commit()
+    else
+        query = "INSERT INTO core (category) VALUES (%s)"
+        cursor.execute(query, (categoryselected,))
+    cnx.commit()
         
 def db_counterdown(categoryselected, counter):
     print categoryselected
     cursor = cnx.cursor(dictionary=True)
+    #result = cursor.execute('SELECT * FROM core WHERE category=?', categoryselected)
     query = "SELECT * FROM core WHERE category = %s LIMIT 1"
     cursor.execute(query, (categoryselected,))
     result = cursor.fetchone()
@@ -50,12 +54,14 @@ def db_counterdown(categoryselected, counter):
         
         newcounterval = result[counter] - 1
         query = "UPDATE core SET " + counter + " = %s WHERE id = %s"
-        
         cursor.execute(query, (newcounterval,resid))
-        cnx.commit()
-        
-#test
+    else
+        query = "INSERT INTO core (category) VALUES (%s)"
+        cursor.execute(query, (categoryselected,))
+    cnx.commit()
+            
 db_connect()
 db_counterup("test", "pic")
+db_addcategory("test")
 
     
