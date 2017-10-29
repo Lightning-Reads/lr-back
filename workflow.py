@@ -3,11 +3,12 @@
 from searchWikipedia import getWikipediaLink
 from searchGoogleimage import doImageSearch
 from importantWords import getWordCloud
+from textSummarize import summarize
 from operator import itemgetter
 
 from searchGoogletext import getTextTopic, doSentimentAnalysis, getMostRelevantEvent, getMostRelevantEntity, getMostRelevantLocation
 
-upperBound = 1
+upperBound = 5
 
 
 def generateContent(originalContent):
@@ -29,6 +30,7 @@ def generateContent(originalContent):
     result['importantWords'] = []
     result['helpfulLinks'] = []
     result['imageLinks'] = []
+    result['summary']  = summarize(originalContent)
     result['meta'] = {}
 
     result['meta']['sentiment'] = doSentimentAnalysis(originalContent)

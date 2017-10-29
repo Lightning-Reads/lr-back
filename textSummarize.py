@@ -7,7 +7,7 @@ from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
-def summarize(text, SENTENCES_COUNT = 5,LANGUAGE = "english"):
+def summarize(text, SENTENCES_COUNT = 3,LANGUAGE = "english"):
     parser = PlaintextParser.from_string(text, Tokenizer(LANGUAGE))
     stemmer = Stemmer(LANGUAGE)
 
@@ -15,7 +15,7 @@ def summarize(text, SENTENCES_COUNT = 5,LANGUAGE = "english"):
     summarizer.stop_words = get_stop_words(LANGUAGE)
     output = []
     for sentence in summarizer(parser.document, SENTENCES_COUNT):
-        output.append(sentence._text+'\n')
+        output.append(sentence._text+' ')
     return ''.join(output)
 
 if __name__ == '__main__':
