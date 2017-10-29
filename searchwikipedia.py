@@ -1,4 +1,9 @@
 from wikiapi import WikiApi
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 wiki = WikiApi({ 'locale' : 'en'}) # to specify your locale, 'en' is default
 
 def getWikipediaLink(searchString):
