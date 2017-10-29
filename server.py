@@ -30,7 +30,10 @@ def feedback():
     fb = request.get_json(silent=True)
     db_counterup(fb['category'], fb['mediatype'])
     return "OK"
-    
+
+
+def get_topic(text):
+    return text.split('/')[1]
 
 if __name__ == '__main__':
     app.debug = True
