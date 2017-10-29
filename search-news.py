@@ -6,8 +6,6 @@ from datetime import date
 from datetime import timedelta
 
 
-
-
 def doArticleSearch(searchString):
     try:
         enddate = date.today()
