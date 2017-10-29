@@ -39,6 +39,7 @@ def db_counterup(categoryselected, mediatype):
         query = "INSERT INTO core (category) VALUES (%s)"
         cursor.execute(query, (categoryselected,))
     cnx.commit()
+    return "OK"
         
 def db_counterdown(categoryselected, mediatype):
     print categoryselected

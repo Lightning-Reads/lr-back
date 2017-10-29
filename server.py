@@ -28,8 +28,10 @@ def input():
 @app.route("/feedback", methods=['POST'])
 def feedback():
     fb = request.get_json(silent=True)
+    db_counterup(fb['category'], fb['mediatype'])
+    return "OK"
     
 
 if __name__ == '__main__':
     app.debug = True
-    app.run()
+    app.run(host= '0.0.0.0')
