@@ -2,3 +2,7 @@ google-api-python-client
 wikiapi
 flask
 wordcloud
+google-cloud
+google-cloud-language
+
+

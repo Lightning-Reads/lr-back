@@ -5,28 +5,38 @@ from searchGoogleimage import doImageSearch
 from importantWords import getWordCloud
 from operator import itemgetter
 
-upperBound = 5
+from searchGoogletext import getTextTopic, doSentimentAnalysis, getMostRelevantEvent, getMostRelevantEntity, getMostRelevantLocation
+
+upperBound = 1
 
 
-def generateContent(originContent):
+def generateContent(originalContent):
 
     count = 0
-    mockData = {'Hackathon': 0.03434,
-                'SAP': 0.111,
-                'Jan Böhmermann': 0.001}
+    # mockData = {'Hackathon': 0.03434,
+    #             'SAP': 0.111,
+    #             'Jan Böhmermann': 0.001}
 
-    originContent.decode("utf-8")
+    originalContent.decode("utf-8")
 
-    wordlist = getWordCloud(originContent)
+    wordlist = getWordCloud(originalContent)
     # wordlist = mockData
 
     wordlist = sorted(wordlist.iteritems(), key=itemgetter(1), reverse=True)
 
     result = {}
-    result['baseText'] = originContent
+    result['baseText'] = originalContent
     result['importantWords'] = []
     result['helpfulLinks'] = []
     result['imageLinks'] = []
+    result['meta'] = {}
+
+    result['meta']['sentiment'] = doSentimentAnalysis(originalContent)
+    result['meta']['person'] = getMostRelevantEntity(originalContent)
+    result['meta']['location'] = getMostRelevantLocation(originalContent)
+    result['meta']['event'] = getMostRelevantEvent(originalContent)
+    result['meta']['topic'] = getTextTopic(originalContent)
+
 
     for key, value in wordlist:
         result['importantWords'].append({

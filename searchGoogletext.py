@@ -26,7 +26,7 @@ def doSentimentAnalysis(searchString):
             type=enums.Document.Type.PLAIN_TEXT)
 
         # Instantiates a client
-        client = language.LanguageServiceClient()
+        client = language_v1beta2.LanguageServiceClient()
 
         sentiment = client.analyze_sentiment(
             document=document).document_sentiment
@@ -42,7 +42,7 @@ def doSentimentAnalysis(searchString):
 def doEntitiyAnalysis(searchString):
     try:
         """Detects entities in the text."""
-        client = language.LanguageServiceClient()
+        client = language_v1beta2.LanguageServiceClient()
 
         if isinstance(searchString, six.binary_type):
             text = searchString.decode('utf-8')
@@ -74,8 +74,8 @@ def getMostRelevantEntity(searchString):
         """Detects entities in the text."""
         client = language_v1beta2.LanguageServiceClient()
 
-        if isinstance(searchString, six.binary_type):
-            text = searchString.decode('utf-8')
+        # if isinstance(searchString, six.binary_type):
+        text = searchString.decode('utf-8')
 
         # Instantiates a plain text document.
         document = types.Document(
@@ -90,7 +90,13 @@ def getMostRelevantEntity(searchString):
             if entity_type[entity.type] == 'PERSON':
                 return_entity = entity
                 break
-        return return_entity
+
+        result = {
+            'name': entity.name,
+            'salience': entity.salience,
+            'wikipedia_url': entity.metadata.get('wikipedia_url', '-')
+        }
+        return result
 
     except ValueError, e:
         return ''
@@ -101,8 +107,8 @@ def getMostRelevantLocation(searchString):
         """Detects entities in the text."""
         client = language_v1beta2.LanguageServiceClient()
 
-        if isinstance(searchString, six.binary_type):
-            text = searchString.decode('utf-8')
+        # if isinstance(searchString, six.binary_type):
+        text = searchString.decode('utf-8')
 
         # Instantiates a plain text document.
         document = types.Document(
@@ -117,7 +123,13 @@ def getMostRelevantLocation(searchString):
             if entity_type[entity.type] == 'LOCATION':
                 return_entity = entity
                 break
-        return return_entity
+
+        result = {
+            'name': entity.name,
+            'salience': entity.salience,
+            'wikipedia_url': entity.metadata.get('wikipedia_url', '-')
+        }
+        return result
 
     except ValueError, e:
         return ''
@@ -128,8 +140,8 @@ def getMostRelevantEvent(searchString):
         """Detects entities in the text."""
         client = language_v1beta2.LanguageServiceClient()
 
-        if isinstance(searchString, six.binary_type):
-            text = searchString.decode('utf-8')
+        #if isinstance(searchString, six.binary_type):
+        text = searchString.decode('utf-8')
 
         # Instantiates a plain text document.
         document = types.Document(
@@ -144,7 +156,13 @@ def getMostRelevantEvent(searchString):
             if entity_type[entity.type] == 'EVENT':
                 return_entity = entity
                 break
-        return return_entity
+            
+        result = {
+            'name': entity.name,
+            'salience': entity.salience,
+            'wikipedia_url': entity.metadata.get('wikipedia_url', '-')
+        }
+        return result
 
     except ValueError, e:
         return ''
@@ -155,18 +173,25 @@ def getTextTopic(searchString):
         """Classifies content categories of the provided text."""
         client = language_v1beta2.LanguageServiceClient()
 
-        if isinstance(searchString, six.binary_type):
-            text = searchString.decode('utf-8')
-
         document = types.Document(
-            content=text.encode('utf-8'),
+            content=searchString,
             type=enums.Document.Type.PLAIN_TEXT)
 
         categories = client.classify_text(document).categories
 
+        print categories
+
         # for category in categories:
-        category = categories[0]
-        return category.name
+        if not categories:
+            return []
+        else :
+            category = {
+                'name': categories[0].name,
+                'confidence' : categories[0].confidence
+            }
+            return category
+
+        # return category
         #print(u'=' * 20)
         #print(u'{:<16}: {}'.format('name', category.name))
         #print(u'{:<16}: {}'.format('confidence', category.confidence))
@@ -177,7 +202,7 @@ def getTextTopic(searchString):
 
 
 # tests
-# getTextTopic("Mariano Rajoy, Spain's prime minister, announced the immediate dismissal of the Catalan government and parliament, and called a fresh regional election for December 21st.")
+#getTextTopic("Mariano Rajoy, Spain's prime minister, announced the immediate dismissal of the Catalan government and parliament, and called a fresh regional election for December 21st.")
 
 # return_entity = getMostRelevantLocation(
 #     "Mariano Rajoy, Spain's prime minister, announced the immediate dismissal of the Catalan government and parliament, and called a fresh regional election for December 21st.")
