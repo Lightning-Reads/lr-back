@@ -1,0 +1,134 @@
+{'helpfulLinks': [{'url': 'https://en.wikipedia.org/wiki/Catalan', 'word': u'Catalan'}, {'url': 'https://en.wikipedia.org/wiki/Cat
+    alonia', 'word': u'Catalonia'}, {'url': 'https://en.wikipedia.org/wiki/Spain', 'word': u'Spain'}, {'url': 'https://en.wikipedia.or
+    g/wiki/Government', 'word': u'government'}, {'url': 'https://en.wikipedia.org/wiki/Independence', 'word': u'independence'}], 'impo
+    rtantWords': [{'importance': 1.0, 'word': u'Catalan'}, {'importance': 0.9, 'word': u'Catalonia'}, {'importance': 0.8, 'word': u'Sp
+    ain'}, {'importance': 0.8, 'word': u'government'}, {'importance': 0.8, 'word': u'independence'}, {'importance': 0.8, 'word': u'sai
+    d'}, {'importance': 0.7, 'word': u'Mr Puigdemont'}, {'importance': 0.7, 'word': u'Madrid'}, {'importance': 0.5, 'word': u'Share'},
+     {'importance': 0.5, 'word': u'Barcelona'}, {'importance': 0.5, 'word': u'Spanish'}, {'importance': 0.4, 'word': u'regional'}, {'i
+    mportance': 0.4, 'word': u'election'}, {'importance': 0.4, 'word': u'parliament'}, {'importance': 0.4, 'word': u'pro'}, {'importan
+    ce': 0.3, 'word': u'Sunday'}, {'importance': 0.3, 'word': u'prison'}, {'importance': 0.3, 'word': u'force'}, {'importance': 0.3, '
+    word': u'people'}, {'importance': 0.3, 'word': u'police'}, {'importance': 0.3, 'word': u'favour'}, {'importance': 0.3, 'word': u'l
+    eader'}, {'importance': 0.3, 'word': u'told'}, {'importance': 0.3, 'word': u'took'}, {'importance': 0.3, 'word': u'minister'}, {'i
+    mportance': 0.2, 'word': u'dissolution'}, {'importance': 0.2, 'word': u'held'}, {'importance': 0.2, 'word': u'Reuters'}, {'importa
+    nce': 0.2, 'word': u'asylum'}, {'importance': 0.2, 'word': u'removal'}, {'importance': 0.2, 'word': u'shameless'}, {'importance':
+    0.2, 'word': u'policy'}, {'importance': 0.2, 'word': u'local'}, {'importance': 0.2, 'word': u'Many'}, {'importance': 0.2, 'word':
+    u'Constitutional'}, {'importance': 0.2, 'word': u'now'}, {'importance': 0.2, 'word': u'public'}, {'importance': 0.2, 'word': u'lea
+    ve'}, {'importance': 0.2, 'word': u'opposition'}, {'importance': 0.2, 'word': u'news'}, {'importance': 0.2, 'word': u'Rajoy'}, {'i
+    mportance': 0.2, 'word': u'region'}, {'importance': 0.2, 'word': u'Batllo'}, {'importance': 0.2, 'word': u'crisis'}, {'importance'
+    : 0.2, 'word': u'illegal'}, {'importance': 0.2, 'word': u'taken'}, {'importance': 0.2, 'word': u'Belgium'}, {'importance': 0.2, 'w
+    ord': u'part'}, {'importance': 0.2, 'word': u'powers'}, {'importance': 0.2, 'word': u'Image'}, {'importance': 0.2, 'word': u'Media
+    '}, {'importance': 0.2, 'word': u'separatist'}, {'importance': 0.2, 'word': u'want'}, {'importance': 0.2, 'word': u'sentences'}, {
+    'importance': 0.2, 'word': u'rally'}, {'importance': 0.2, 'word': u'agency'}, {'importance': 0.2, 'word': u'dismissed'}, {'importa
+    nce': 0.2, 'word': u'unity'}, {'importance': 0.2, 'word': u'protester'}, {'importance': 0.2, 'word': u'Casa'}, {'importance': 0.2,
+     'word': u'attend'}, {'importance': 0.2, 'word': u'declaring'}, {'importance': 0.2, 'word': u'Puigdemont'}, {'importance': 0.2, 'w
+    ord': u'flags'}, {'importance': 0.2, 'word': u'democratic'}, {'importance': 0.1, 'word': u'Guardia'}, {'importance': 0.1, 'word':
+    u'quoted'}, {'importance': 0.1, 'word': u'consent'}, {'importance': 0.1, 'word': u'move'}, {'importance': 0.1, 'word': u'actions'}
+    , {'importance': 0.1, 'word': u'month'}, {'importance': 0.1, 'word': u'bandied'}, {'importance': 0.1, 'word': u'find'}, {'importan
+    ce': 0.1, 'word': u'migration'}, {'importance': 0.1, 'word': u'repression'}, {'importance': 0.1, 'word': u'office'}, {'importance'
+    : 0.1, 'word': u'M\xe9ndez'}, {'importance': 0.1, 'word': u'Girona'}, {'importance': 0.1, 'word': u'unhappy'}, {'importance': 0.1,
+     'word': u'environment'}, {'importance': 0.1, 'word': u'Gaudi'}, {'importance': 0.1, 'word': u'going'}, {'importance': 0.1, 'word'
+    : u'safety'}, {'importance': 0.1, 'word': u'jailed'}, {'importance': 0.1, 'word': u'Prime'}, {'importance': 0.1, 'word': u'somebod
+    y'}, {'importance': 0.1, 'word': u'municipal'}, {'importance': 0.1, 'word': u'wave'}, {'importance': 0.1, 'word': u'break'}, {'imp
+    ortance': 0.1, 'word': u'five'}, {'importance': 0.1, 'word': u'despite'}, {'importance': 0.1, 'word': u'Vigo'}, {'importance': 0.1
+    , 'word': u'areas'}, {'importance': 0.1, 'word': u'lost'}, {'importance': 0.1, 'word': u'always'}, {'importance': 0.1, 'word': u'c
+    ommunications'}, {'importance': 0.1, 'word': u'continue'}, {'importance': 0.1, 'word': u'GETTY'}, {'importance': 0.1, 'word': u'te
+    am'}, {'importance': 0.1, 'word': u'Maria'}, {'importance': 0.1, 'word': u'Twitter'}, {'importance': 0.1, 'word': u'mean'}, {'impo
+    rtance': 0.1, 'word': u'declared'}, {'importance': 0.1, 'word': u'right'}, {'importance': 0.1, 'word': u'fair'}, {'importance': 0.
+    1, 'word': u'Carles'}, {'importance': 0.1, 'word': u'national'}, {'importance': 0.1, 'word': u'direct'}, {'importance': 0.1, 'word
+    ': u'culture'}, {'importance': 0.1, 'word': u'see'}, {'importance': 0.1, 'word': u'Messenger'}, {'importance': 0.1, 'word': u'year
+    '}, {'importance': 0.1, 'word': u'organised'}, {'importance': 0.1, 'word': u'Email'}, {'importance': 0.1, 'word': u'section'}, {'i
+    mportance': 0.1, 'word': u'since'}, {'importance': 0.1, 'word': u'per'}, {'importance': 0.1, 'word': u'spokesman'}, {'importance':
+     0.1, 'word': u'broadcaster'}, {'importance': 0.1, 'word': u'Facebook'}, {'importance': 0.1, 'word': u'Lopez'}, {'importance': 0.1
+    , 'word': u'supports'}, {'importance': 0.1, 'word': u'exercise'}, {'importance': 0.1, 'word': u'earlier'}, {'importance': 0.1, 'wo
+    rd': u'transportation'}, {'importance': 0.1, 'word': u'grandparents'}, {'importance': 0.1, 'word': u'gathered'}, {'importance': 0.
+    1, 'word': u'sole'}, {'importance': 0.1, 'word': u'reported'}, {'importance': 0.1, 'word': u'respondents'}, {'importance': 0.1, 'w
+    ord': u'sacked'}, {'importance': 0.1, 'word': u'defiance'}, {'importance': 0.1, 'word': u'backed'}, {'importance': 0.1, 'word': u'
+    AFP'}, {'importance': 0.1, 'word': u'suggested'}, {'importance': 0.1, 'word': u'El'}, {'importance': 0.1, 'word': u'central'}, {'i
+    mportance': 0.1, 'word': u'reverse'}, {'importance': 0.1, 'word': u'attending'}, {'importance': 0.1, 'word': u'violence'}, {'impor
+    tance': 0.1, 'word': u'movement'}, {'importance': 0.1, 'word': u'urged'}, {'importance': 0.1, 'word': u'declare'}, {'importance':
+    0.1, 'word': u'trial'}, {'importance': 0.1, 'word': u'range'}, {'importance': 0.1, 'word': u'protection'}, {'importance': 0.1, 'wo
+    rd': u'suggestion'}, {'importance': 0.1, 'word': u'published'}, {'importance': 0.1, 'word': u'copyrightAFP'}, {'importance': 0.1,
+    'word': u'enraged'}, {'importance': 0.1, 'word': u'Friday'}, {'importance': 0.1, 'word': u'question'}, {'importance': 0.1, 'word':
+     u'Urbana'}, {'importance': 0.1, 'word': u'Later'}, {'importance': 0.1, 'word': u'one'}, {'importance': 0.1, 'word': u'cent'}, {'i
+    mportance': 0.1, 'word': u'old'}, {'importance': 0.1, 'word': u'poll'}, {'importance': 0.1, 'word': u'armed'}, {'importance': 0.1,
+     'word': u'announced'}, {'importance': 0.1, 'word': u'Europe'}, {'importance': 0.1, 'word': u'city'}, {'importance': 0.1, 'word':
+    u'given'}, {'importance': 0.1, 'word': u'takes'}, {'importance': 0.1, 'word': u'Mariano'}, {'importance': 0.1, 'word': u'political
+    '}, {'importance': 0.1, 'word': u'referendum'}, {'importance': 0.1, 'word': u'least'}, {'importance': 0.1, 'word': u'next'}, {'imp
+    ortance': 0.1, 'word': u'opposed'}, {'importance': 0.1, 'word': u'stripped'}, {'importance': 0.1, 'word': u'Pais'}, {'importance':
+     0.1, 'word': u'chanted'}, {'importance': 0.1, 'word': u'Among'}, {'importance': 0.1, 'word': u'gripped'}, {'importance': 0.1, 'wo
+    rd': u'declaration'}, {'importance': 0.1, 'word': u'Fernandez'}, {'importance': 0.1, 'word': u'case'}, {'importance': 0.1, 'word':
+     u'commerce'}, {'importance': 0.1, 'word': u'Marina'}, {'importance': 0.1, 'word': u'responding'}, {'importance': 0.1, 'word': u'w
+    hether'}, {'importance': 0.1, 'word': u'protesting'}, {'importance': 0.1, 'word': u'heartland'}, {'importance': 0.1, 'word': u'us'
+    }, {'importance': 0.1, 'word': u'match'}, {'importance': 0.1, 'word': u'December'}, {'importance': 0.1, 'word': u'newspaper'}, {'i
+    mportance': 0.1, 'word': u'situation'}, {'importance': 0.1, 'word': u'participation'}, {'importance': 0.1, 'word': u'2017Image'},
+    {'importance': 0.1, 'word': u'largest'}, {'importance': 0.1, 'word': u'difficult'}, {'importance': 0.1, 'word': u'though'}, {'impo
+    rtance': 0.1, 'word': u'football'}, {'importance': 0.1, 'word': u'captionCatalonia'}, {'importance': 0.1, 'word': u'moment'}, {'im
+    portance': 0.1, 'word': u'authorities'}, {'importance': 0.1, 'word': u'ago'}, {'importance': 0.1, 'word': u'institutions'}], 'imag
+    eLinks': [{'url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Catalan_Countries.svg/1200px-Catalan_Countries.svg.pn
+    g', 'word': u'Catalan'}, {'url': 'https://ichef-1.bbci.co.uk/news/624/cpsprodpb/167AA/production/_93547029_spaincatalonia4641114.p
+    ng', 'word': u'Catalonia'}, {'url': 'https://pbs.twimg.com/profile_images/900998565241266176/XKuhboCB.jpg', 'word': u'Spain'}, {'u
+    rl': 'https://thetomatos.com/wp-content/uploads/2017/01/government-social-clipart.png', 'word': u'government'}, {'url': 'http://ww
+    w.ccfi.us/files/5914/3740/9688/CCFI_hmpgsliders_achieveindependence_chs071315.png', 'word': u'independence'}], 'summary': u'Media
+    captionDemonstrators were keen to reflect not all Catalonia backed independence A reported 300,000 people are attending a rally fo
+    r Spanish unity in Barcelona after Catalonia was stripped of its autonomy for declaring independence. There is no suggestion that
+    Mr Puigdemont is seeking to leave Catalonia. Before Madrid took over the Catalan government, the region had one of the greatest le
+    vels of self-government in Spain. ', 'baseText': u'Catalonia independence: 300,000 attend Barcelona pro-Spain rally\n31 minutes ag
+    o\n From the section Europe Share this with Facebook  Share this with Twitter  Share this with Messenger  Share this with Email  S
+    hare\n\n\nMedia captionDemonstrators were keen to reflect not all Catalonia backed independence\nA reported 300,000 people are att
+    ending a rally for Spanish unity in Barcelona after Catalonia was stripped of its autonomy for declaring independence.\nMany of th
+    ose protesting in the region\'s largest city chanted that sacked Catalan leader Carles Puigdemont should be jailed.\nMr Puigdemont
+     was dismissed as Spain\'s central government took control of Catalan institutions.\nOn Sunday, a minister in Belgium said he coul
+    d get political asylum there.\nSpain has been gripped by a constitutional crisis since a referendum, organised by Mr Puigdemont\'s
+     separatist government, was held earlier this month in defiance of a ruling by the Constitutional Court which had declared it ille
+    gal.\nThe Catalan government said that of the 43% of potential voters who took part, 90% were in favour of independence.\nThe Guar
+    dia Urbana, a Catalan municipal police force, said at least 300,000 people had turned out in Barcelona.\nAmong them was Marina Fer
+    nandez, a 19-year-old student, who said she was unhappy with the actions taken by the Catalan authorities.\n"I am enraged about wh
+    at they are doing to the country that my grandparents built," she told the AFP news agency.\nMadrid\'s enforcer for Catalonia\nCat
+    alonia crisis: What next for Spain?\nAnother protester, Maria Lopez, told Reuters news agency: "What do we want? That they don\'t
+    break us up. This is a disgrace. We are not going to consent. They are shameless, shameless, and Mr Puigdemont needs to be taken t
+    o prison."\nPeople wave Spanish flags from the Casa Batllo during a pro-unity demonstration in Barcelona on October 29, 2017Image
+    copyrightAFP/GETTY IMAGES\nImage caption\nPro-Spain protesters gathered at the Gaudi-designed Casa Batllo in Barcelona\nFriday saw
+     the regional parliament declare independence, with Madrid responding by declaring the move illegal.\nPrime Minister Mariano Rajoy
+     then announced the dissolution of the regional parliament and the removal of Mr Puigdemont as Catalan leader, and ordered that fr
+    esh regional elections should be held in December.\nMr Puigdemont has urged "democratic opposition" to direct rule from Madrid, wh
+    ich has said it would welcome his participation in the election.\nWhat powers has Catalonia now lost?\nThe case for and against in
+    dependence\nA government spokesman in Madrid, \xcd\xf1igo M\xe9ndez de Vigo, said Mr Puigdemont had the right to continue in polit
+    ics, despite his removal from office.\n"If Puigdemont takes part in these elections, he can exercise this democratic opposition,"
+    he said, quoted by Reuters.\n\n\nMedia captionCatalonia: Spanish flags and what they mean\nOn Sunday, Belgium\'s migration ministe
+    r Theo Francken told local TV the separatist leader could be given asylum protection which Spain would find difficult to reverse.\
+    n"If you see the situation at the moment, the prison sentences and the repression from Madrid and the prison sentences that are ba
+    ndied about. Then the question is obviously whether somebody like that has the chance of a fair trial," he said.\nThere is no sugg
+    estion that Mr Puigdemont is seeking to leave Catalonia.\nLater on Sunday, he is expected to attend a football match in Girona, th
+    e heartland of the pro-independence movement, when the local team play Real Madrid - who Mr Rajoy supports.\nDoes Catalonia want t
+    o leave Spain?\nReality Check: Police violence in Catalonia\nA poll published by Spanish national newspaper El Pais on Saturday su
+    ggested more Catalans (52% to 43%) were in favour of the dissolution of the regional parliament and the holding of elections.\nFif
+    ty-five per cent of Catalan respondents opposed the declaration of independence, with 41% in favour.\nBefore Madrid took over the
+    Catalan government, the region had one of the greatest levels of self-government in Spain.\nIt has its own parliament, police forc
+    e and public broadcaster, as well as a government and president, though those have now been dismissed.\nCatalans had a range of po
+    wers in many policy areas from culture and environment to communications, transportation, commerce and public safety.\nForeign aff
+    airs, the armed forces and fiscal policy were always the sole responsibility of the Spanish government.', 'meta': {'sentiment': ('
+    -0.10000000149', '10.1999998093'), 'topic': {'confidence': 0.800000011920929, 'name': u'/News/Politics'}, 'person': {'salience': 0
+    .3930165767669678, 'name': u'Carles Puigdemont', 'wikipedia_url': u'https://en.wikipedia.org/wiki/Carles_Puigdemont'}, 'location':
+     {'salience': 0.1147298738360405, 'name': u'Catalonia Catalonia', 'wikipedia_url': u'https://en.wikipedia.org/wiki/Catalonia'}, 'n
+    ews': {u'lang': u'eng', u'body': u'BARCELONA, Spain (AP) - The Latest on the Spain-Catalonia political crisis (all times local):\n
+    \n2:10 p.m.\n\nSpain\'s foreign minister says Catalonia\'s deposed leader would be eligible to run in the regional election called
+     by the central government on Dec. 21, provided he hasn\'t been imprisoned by then.\n\nForeign Minister Alfonso Dastis told The As
+    sociated Press in an interview in Madrid that Carles Puigdemont\'s pro-independence party could "theoretically" put him up as a ca
+    ndidate "if he is not put in jail at that time."\n\nPuigdemont could face criminal charges for his role in the separatist movement
+     that culminated in the Catalan parliament declaring an independent republic on Friday.\n\nTens of thousands of demonstrators, man
+    y of them carrying Spanish and official "senyera" Catalan flags, have gathered on a central Barcelona boulevard in a call for Spai
+    n\'s unity.\n\nThe atmosphere was festive, as many cheered politicians and central government officials who joined the march. Some
+     chanted "Puigdemont, to jail!" referring to the ousted regional leader who has been fired along with his Cabinet by the Spanish g
+    overnment after an independence declaration Friday.\n\nPrime Minister Mariano Rajoy has also dissolved Catalonia\'s parliament and
+     called a regional election for Dec. 21. Demonstrators are chanting "Now yes, we are going to vote!" and applauding every time a n
+    ational police helicopter flies over the crowd. "This is our police!" they chanted.\n\nThe regional leader of one of Spain\'s ...'
+    , u'title': u"The Latest: Catalan leader can run in vote 'if not in jail'", u'url': u'http://www.wmcactionnews5.com/story/36710109
+    /the-latest-catalan-leader-can-run-in-vote-if-not-in-jail', u'storyUri': None, u'categories': [{u'wgt': 13, u'label': u'dmoz/Socie
+    ty/Politics', u'uri': u'dmoz/Society/Politics', u'id': 276}, {u'wgt': 15, u'label': u'dmoz/Society/Politics/Campaigns and Election
+    s', u'uri': u'dmoz/Society/Politics/Campaigns_and_Elections', u'id': 301}, {u'wgt': 18, u'label': u'dmoz/Society/Issues/Territoria
+    l Disputes', u'uri': u'dmoz/Society/Issues/Territorial_Disputes', u'id': 773}, {u'wgt': 13, u'label': u'dmoz/Society/Issues/Govern
+    ment Operations', u'uri': u'dmoz/Society/Issues/Government_Operations', u'id': 1808}, {u'wgt': 14, u'label': u'dmoz/Society/Govern
+    ment/Guides and Directories', u'uri': u'dmoz/Society/Government/Guides_and_Directories', u'id': 2444}], u'uri': u'751752935', u'ev
+    entUri': None, u'dateTime': u'2017-10-29T13:43:00Z', u'date': u'2017-10-29', u'source': {u'title': u'WMC Action News 5', u'id': u'
+    191', u'uri': u'wmcactionnews5.com'}, u'shares': {}, u'time': u'13:43:00', u'isDuplicate': True, u'wgt': 5, u'id': u'23562610', u'
+    sim': 0}, 'event': {'salience': 0.010520894080400467, 'name': u'rally', 'wikipedia_url': '-'}}}

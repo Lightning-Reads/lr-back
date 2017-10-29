@@ -59,7 +59,7 @@ def generateContent(originalContent):
     # # runs in *only* one process
     # res5 = pool.apply_async(getTextTopic, (originalContent,))
 
-    res6 = pool.apply_async(doArticleSearch, (mostImportantWord,))
+    # res6 = pool.apply_async(doArticleSearch, (mostImportantWord,))
 
     # try:
     #     result['meta']['sentiment'] = ressentiment.get(timeout=30)
