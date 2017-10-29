@@ -28,7 +28,9 @@ def input():
 @app.route("/feedback", methods=['POST'])
 def feedback():
     fb = request.get_json(silent=True)
-    db_counterup(fb['category'], fb['mediatype'])
+    cat = get_topic(fb['category'])
+    mt = fb['mediatype']
+    db_counterup(cat, mt)
     return "OK"
 
 
